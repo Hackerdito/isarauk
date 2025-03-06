@@ -6,7 +6,17 @@
 @media (max-width: 420px) {
   .flex-column-reverse-mobile {
     display: flex;
-    flex-direction: column-reverse;
+    /*flex-direction: column-reverse;*/
   }
+}
+
+@media (max-width: 768px) {
+  #text {
+    max-width: 350px;
+  }
+}
+
+.typewriter {
+  font-size: 3rem;
 }
 
